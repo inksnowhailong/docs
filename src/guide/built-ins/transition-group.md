@@ -12,7 +12,7 @@ import ListStagger from './transition-demos/ListStagger.vue'
 
 `<TransitionGroup>` supports the same props, CSS transition classes, and JavaScript hook listeners as `<Transition>`, with the following differences:
 
-- By default, it doesn't render a wrapper element. But you can specify an element to be rendered with the `tag` prop.
+- By default, it doesn't render a wrapper element(In the case of jsx, there is still a default container element div). But you can specify an element to be rendered with the `tag` prop.
 
 - [Transition modes](./transition.html#transition-modes) are not available, because we are no longer alternating between mutually exclusive elements.
 
